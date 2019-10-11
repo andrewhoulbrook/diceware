@@ -5,8 +5,7 @@
 #include <string.h>
 #include <sodium.h>
 
-// Size of passphrases, multiples of six char strings. Diceware words are 6 chars max.
-#define PASSPHRASE_SIZE(l) (6 * l)
+// Set limit for size of passphrases to be generated
 #define MAX_WORDS 100
 
 // Function prototypes
