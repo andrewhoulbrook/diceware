@@ -155,10 +155,10 @@ int main()
     }
     else
     {
-        // If user types erroroneous input, reset to default wordlist
+        // If user types erroroneous input, reset to default passphrase length
         if (iPassphraseLen <= 0 || iPassphraseLen > MAX_WORDS)
         {
-            iPassphraseLen = 1;
+            iPassphraseLen = 6;
         }
     }
     
@@ -206,7 +206,7 @@ int main()
             }
         }
 
-        // Declare variable to hold Diceware indcies and corresponding words
+        // Declare variable to hold Diceware indices and corresponding words
         int dicewareIndex;
         char dicewareWord[6];
 
@@ -235,7 +235,7 @@ int main()
         fclose(fWordlist);
     }
 
-    // Print generate random passphrase to terminal
+    // Print generated random passphrase to terminal
     printf("\nPassphrase: %s\n\n", sPassphrase);
 
     // Free memory. Implicitly calls sodium_munlock and zeros memory region prior to deallocation 
