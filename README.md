@@ -44,7 +44,7 @@ Strength of Diceware is its use of randomness but also its ability to generate p
 
 Diceware words cannot be selected based on their attractiveness, ease of memorising or other human-centric criteria. If words within a passphrase are generated from a uniformly random process, the only way to attack a Diceware passphrase is by brute force. Passphrases of six words in length are currently considered to be **strong** passphrases (77.52 bits of entropy).
 
-If the word lists are public knowledge, can't Diceware passphrase be dictionary attacked? No. Dictionary attacks exploit weaknesses in human generated passwords, where certain password constructions are more likely than others. In Diceware, all passphrases are equally likely.
+If the word lists are public knowledge, can't Diceware passphrases be dictionary attacked? No. Dictionary attacks exploit weaknesses in human generated passwords, where certain password constructions are more likely than others. In Diceware, all passphrases are equally likely.
 
 ### True Random Number Generators
 
@@ -52,7 +52,7 @@ Diceware's creator strongly advocates use of actual dice as a source of randomne
 
 ### Diceware Word Lists
 
-This repo also contains ```/wordlists``` with the three previously mentioned Diceware word lists to experimenting with. 
+This repo also contains ```/wordlists``` with the three previously mentioned Diceware word lists to experiment with. 
 
 Others pre-built wordlists, in various languages, are available from the [Diceware site](http://world.std.com/~reinhold/diceware.html#Diceware%20in%20Other%20Languages|outline). 
 
